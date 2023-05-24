@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					}
+				],
+				"name": "sendVidCall",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/14_TransferETH.sol": "TransferETH"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/14_TransferETH.sol": {
+			"keccak256": "0xfc4ce6c0c93802b5375a8752fac6c3157db45481c54f6b1c0e640a872c69a3a7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5e04a1fcad10ea57a916523ecb72ca9b82da80a10d03ee55b3f8eb45e906aee2",
+				"dweb:/ipfs/QmXCXT96vCvUU8YFMbZCiaVKFvcpik5ipvBq26xhTsxrqE"
+			]
+		}
+	},
+	"version": 1
+}

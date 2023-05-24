@@ -1,0 +1,60 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "6080604052336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055504260015543600255348015605757600080fd5b50603f8060656000396000f3fe6080604052600080fdfea26469706673582212204c6b6014ab9ba6c50bfb2474e499b4cb22e4fa70f71bf06f28430c7d8aa3d0ee64736f6c63430008070033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLER PUSH1 0x0 DUP1 PUSH2 0x100 EXP DUP2 SLOAD DUP2 PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF MUL NOT AND SWAP1 DUP4 PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND MUL OR SWAP1 SSTORE POP TIMESTAMP PUSH1 0x1 SSTORE NUMBER PUSH1 0x2 SSTORE CALLVALUE DUP1 ISZERO PUSH1 0x57 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x3F DUP1 PUSH1 0x65 PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0x4C PUSH12 0x6014AB9BA6C50BFB2474E499 0xB4 0xCB 0x22 0xE4 STATICCALL PUSH17 0xF71BF06F28430C7D8AA3D0EE64736F6C63 NUMBER STOP ADDMOD SMOD STOP CALLER ",
+			"sourceMap": "57:237:0:-:0;;;138:10;121:27;;;;;;;;;;;;;;;;;;;;213:15;196:32;;278:12;262:28;;57:237;;;;;;;;;;;;;;;;"
+		},
+		"deployedBytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "6080604052600080fdfea26469706673582212204c6b6014ab9ba6c50bfb2474e499b4cb22e4fa70f71bf06f28430c7d8aa3d0ee64736f6c63430008070033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0x4C PUSH12 0x6014AB9BA6C50BFB2474E499 0xB4 0xCB 0x22 0xE4 STATICCALL PUSH17 0xF71BF06F28430C7D8AA3D0EE64736F6C63 NUMBER STOP ADDMOD SMOD STOP CALLER ",
+			"sourceMap": "57:237:0:-:0;;;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "12600",
+				"executionCost": "68542",
+				"totalCost": "81142"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": []
+}
